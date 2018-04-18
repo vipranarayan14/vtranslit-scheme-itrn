@@ -11,6 +11,6 @@ npm install vtranslit-itrn-scheme
 ## Node usage
 
 ```js
-const { vTranslitItrnScheme } = require('vtranslit-itrn-scheme');
+const vTranslitItrnScheme = require('vtranslit-itrn-scheme');
 
 ```
