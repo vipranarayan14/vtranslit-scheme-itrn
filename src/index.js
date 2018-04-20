@@ -5,6 +5,10 @@ export const vTranslitItrnScheme = {
     'type': 'roman'
   },
   'data': {
+    'ayogavaha': [
+      ['M', '.m'],
+      ['H', '.h']
+    ],
     'consonants': [
       'ka', 'kha', 'ga', 'gha', ['~Na', 'N^a'],
       'cha', 'Cha', 'ja', 'jha', ['~na', 'JNa'],
@@ -25,11 +29,7 @@ export const vTranslitItrnScheme = {
     ],
     'symbols': [
       '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
-      '|', '||', ['OM', 'AUM'], '.a', ['M', '.m'],
-      ['H', '.h'], '.N'
-    ],
-    'virama': [
-      ';;'
+      '|', '||', ['OM', 'AUM'], '.a', '.N'
     ],
     'vowelMarks': [
       'a', ['A', 'aa'], 'i', ['I', 'ii'], 'u', ['U', 'uu'],
