@@ -85,8 +85,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 var vTranslitItrnScheme = exports.vTranslitItrnScheme = {
   'about': {
-    'schemeCode': 'Itrn',
-    'schemeName': 'ITRANS',
+    'code': 'Itrn',
+    'name': 'ITRANS',
     'type': 'roman'
   },
   'data': {
