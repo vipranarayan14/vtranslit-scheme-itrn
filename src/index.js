@@ -1,7 +1,7 @@
 export const vTranslitItrnScheme = {
   'about': {
-    'schemeCode': 'Itrn',
-    'schemeName': 'ITRANS',
+    'code': 'Itrn',
+    'name': 'ITRANS',
     'type': 'roman'
   },
   'data': {
