@@ -87,7 +87,8 @@ var vTranslitItrnScheme = exports.vTranslitItrnScheme = {
   'about': {
     'code': 'Itrn',
     'name': 'ITRANS',
-    'type': 'roman'
+    'type': 'roman',
+    'unicodeBlock': '0020-007F'
   },
   'data': {
     'ayogavaha': [['M', '.m'], ['H', '.h']],
