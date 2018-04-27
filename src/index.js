@@ -1,4 +1,4 @@
-export const vTranslitItrnScheme = {
+export const vTranslitSchemeItrn = {
   'about': {
     'code': 'Itrn',
     'name': 'ITRANS',

@@ -1,5 +1,5 @@
 {
-  "name": "vtranslit-itrn-scheme",
+  "name": "vtranslit-scheme-itrn",
   "version": "0.2.0",
   "description": "ITRANS scheme for vTranslit.",
   "keywords": [
@@ -7,9 +7,9 @@
     "vtranslit",
     "indic scripts"
   ],
-  "main": "dist/vtranslit-itrn-scheme.npm.js",
+  "main": "dist/vtranslit-scheme-itrn.npm.js",
   "files": [
-    "dist/vtranslit-itrn-scheme.npm.js"
+    "dist/vtranslit-scheme-itrn.npm.js"
   ],
   "scripts": {
     "build": "rimraf dist && webpack",
@@ -21,7 +21,7 @@
   "author": "Prasanna Venkatesh T S <vipranarayan14@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vipranarayan14/vtranslit-itrn-scheme.git"
+    "url": "git+https://github.com/vipranarayan14/vtranslit-scheme-itrn.git"
   },
   "bugs": {
-    "url": "https://github.com/vipranarayan14/vtranslit-itrn-scheme/issues"
+    "url": "https://github.com/vipranarayan14/vtranslit-scheme-itrn/issues"
   },
-  "homepage": "https://github.com/vipranarayan14/vtranslit-itrn-scheme#readme"
+  "homepage": "https://github.com/vipranarayan14/vtranslit-scheme-itrn#readme"
 }
