@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["vTranslitItrnScheme"] = factory();
+		exports["vTranslitSchemeItrn"] = factory();
 	else
-		root["vTranslitItrnScheme"] = factory();
+		root["vTranslitSchemeItrn"] = factory();
 })(typeof self !== 'undefined' ? self : this, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -83,7 +83,7 @@ return /******/ (function(modules) { // webpackBootstrap
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var vTranslitItrnScheme = exports.vTranslitItrnScheme = {
+var vTranslitSchemeItrn = exports.vTranslitSchemeItrn = {
   'about': {
     'code': 'Itrn',
     'name': 'ITRANS',
@@ -101,5 +101,5 @@ var vTranslitItrnScheme = exports.vTranslitItrnScheme = {
 };
 
 /***/ })
-/******/ ])["vTranslitItrnScheme"];
+/******/ ]);
 });

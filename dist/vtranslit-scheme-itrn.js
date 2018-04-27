@@ -1,4 +1,4 @@
-window["vTranslitItrnScheme"] =
+window["vTranslitSchemeItrn"] =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -74,7 +74,7 @@ window["vTranslitItrnScheme"] =
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var vTranslitItrnScheme = exports.vTranslitItrnScheme = {
+var vTranslitSchemeItrn = exports.vTranslitSchemeItrn = {
   'about': {
     'code': 'Itrn',
     'name': 'ITRANS',
@@ -92,4 +92,4 @@ var vTranslitItrnScheme = exports.vTranslitItrnScheme = {
 };
 
 /***/ })
-/******/ ])["vTranslitItrnScheme"];
+/******/ ])["vTranslitSchemeItrn"];
