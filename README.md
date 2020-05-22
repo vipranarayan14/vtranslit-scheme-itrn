@@ -1,4 +1,4 @@
-# vTranslit-scheme-Itrn
+# vtranslit-scheme-itrn
 
 ITRANS scheme for vTranslit.
 
@@ -11,7 +11,7 @@ npm install vtranslit-scheme-itrn
 ## Node usage
 
 ```js
-const vTranslitItrnScheme = require('vtranslit-scheme-itrn');
+const { vTranslitItrnScheme } = require("vtranslit-scheme-itrn");
 ```
 
 ## Browser usage
@@ -21,5 +21,5 @@ const vTranslitItrnScheme = require('vtranslit-scheme-itrn');
 ```
 
 ```js
-const vTranslitSchemeItrn = window.vTranslitSchemeItrn;
+const { vTranslitSchemeItrn } = window;
 ```
