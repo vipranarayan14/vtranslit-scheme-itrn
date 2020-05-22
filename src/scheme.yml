@@ -1,0 +1,137 @@
+---
+# YAML 1.2
+
+code: Itrn
+name: ITRANS
+type: roman
+unicodeBlock: 0020-007F
+map:
+  ayogavaha:
+    M: [M, .m]
+    H: [H, .h]
+  consonants:
+    ka: ka
+    kha: kha
+    ga: ga
+    gha: gha
+    ~Na: [~Na, N^a]
+    cha: cha
+    Cha: Cha
+    ja: ja
+    jha: jha
+    ~na: [~na, JNa]
+    Ta: Ta
+    Tha: Tha
+    Da: Da
+    Dha: Dha
+    Na: Na
+    ta: ta
+    tha: tha
+    da: da
+    dha: dha
+    na: na
+    ^na: ^na
+    pa: pa
+    pha: pha
+    ba: ba
+    bha: bha
+    ma: ma
+    ya: ya
+    ra: ra
+    Ra: Ra
+    la: la
+    La: La
+    zha: zha
+    va: [va, wa]
+    sha: sha
+    Sha: [Sha, Sa, shha]
+    sa: sa
+    ha: ha
+  deadConsonants:
+    k: k
+    kh: kh
+    g: g
+    gh: gh
+    ~N: [~N, N^]
+    ch: ch
+    Ch: Ch
+    j: j
+    jh: jh
+    ~n: [~n, JN]
+    T: T
+    Th: Th
+    D: D
+    Dh: Dh
+    N: N
+    t: t
+    th: th
+    d: d
+    dh: dh
+    n: n
+    ^n: ^n
+    p: p
+    ph: ph
+    b: b
+    bh: bh
+    m: m
+    y: y
+    r: r
+    R: R
+    l: l
+    L: L
+    zh: zh
+    v: [v, w]
+    sh: sh
+    Sh: [Sh, S, shh]
+    s: s
+    h: h
+  symbols:
+    "0": "0"
+    "1": "1"
+    "2": "2"
+    "3": "3"
+    "4": "4"
+    "5": "5"
+    "6": "6"
+    "7": "7"
+    "8": "8"
+    "9": "9"
+    "|": "|"
+    "||": "||"
+    OM: [OM, AUM]
+    .a: .a
+    .N: .N
+  vowelMarks:
+    a: a
+    aa: [A, aa]
+    i: i
+    ii: [I, ii]
+    u: u
+    uu: [U, uu]
+    RRi: [RRi, R^i]
+    RRI: [RRI, R^I]
+    LLi: [LLi, L^i]
+    LLI: [LLI, L^I]
+    e: e
+    E: E
+    ai: ai
+    o: o
+    O: O
+    au: au
+  vowels:
+    a: a
+    aa: [A, aa]
+    i: i
+    ii: [I, ii]
+    u: u
+    uu: [U, uu]
+    RRi: [RRi, R^i]
+    RRI: [RRI, R^I]
+    LLi: [LLi, L^i]
+    LLI: [LLI, L^I]
+    e: e
+    E: E
+    ai: ai
+    o: o
+    O: O
+    au: au

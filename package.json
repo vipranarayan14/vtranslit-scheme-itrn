@@ -7,35 +7,25 @@
     "vtranslit",
     "indic scripts"
   ],
-  "main": "dist/vtranslit-scheme-itrn.npm.js",
-  "files": [
-    "dist/vtranslit-scheme-itrn.npm.js"
-  ],
-  "scripts": {
-    "build": "rimraf dist && webpack",
-    "eslint": "eslint ./**/*.js",
-    "precommit": "npm run eslint",
-    "version": "npm run build && git add -A dist",
-    "postversion": "git push && git push --tags"
-  },
-  "author": "Prasanna Venkatesh T S <vipranarayan14@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.1",
-    "babel-register": "^6.26.0",
-    "eslint": "^4.15.0",
-    "husky": "^0.14.3",
-    "rimraf": "^2.6.2",
-    "webpack": "^3.10.0"
+  "homepage": "https://github.com/vipranarayan14/vtranslit-scheme-itrn#readme",
+  "bugs": {
+    "url": "https://github.com/vipranarayan14/vtranslit-scheme-itrn/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vipranarayan14/vtranslit-scheme-itrn.git"
   },
-  "bugs": {
-    "url": "https://github.com/vipranarayan14/vtranslit-scheme-itrn/issues"
+  "license": "MIT",
+  "author": "Prasanna Venkatesh T S <vipranarayan14@gmail.com>",
+  "main": "dist/scheme.js",
+  "scripts": {
+    "build": "vtranslit-scheme build",
+    "test": "vtranslit-scheme validate",
+    "version": "npm run build && git add -A dist",
+    "postversion": "git push && git push --tags"
   },
-  "homepage": "https://github.com/vipranarayan14/vtranslit-scheme-itrn#readme"
+  "devDependencies": {
+    "prettier": "2.0.5",
+    "vtranslit-scheme-scripts": "1.1.3"
+  }
 }
